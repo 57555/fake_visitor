@@ -71,8 +71,8 @@ print('''\033[1;32;40m \n
 os.system("service tor start")
 
 
-url = input("the webpage...")
-x = int( input("time to change Ip in Sec {type=60}"))
+url = input("Enter the URL... ")
+x = int( input("time to change Ip in Sec {type=10}"))
 lin = int(input("how many time do you want to change your ip {type=1000}"))
 
 for i in range(lin):  
