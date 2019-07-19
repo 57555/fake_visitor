@@ -72,8 +72,8 @@ os.system("service tor start")
 
 
 url = input("Enter the URL... ")
-x = int( input("time to change Ip in Sec {type=10}"))
-lin = int(input("how many time do you want to change your ip {type=1000}"))
+x = int( input("time to wait between visits in Second: {type=10}"))
+lin = int(input("how many time do you want to send visitor? {type=1000}"))
 
 for i in range(lin):  
       os.system("service tor reload")
@@ -86,9 +86,9 @@ for i in range(lin):
           'User-Agent': theua
           }
       )
-      print("<<<<<<<<<<<<<<<< IP has been Changed >>>>>>>>>>>>>>>>> \n ")
+      print(" << IP has been Changed >> \n ")
       print(i) 
-      print("\n")
+      print(" new user agent:  \n")
       print(theua)
       print("\n")
       print("\n")
