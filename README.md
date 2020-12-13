@@ -2,7 +2,7 @@
 visiting a website with linux terminal every n seconds ( random user agent, random ip based on tor )
 how to install this tools :
 
-1: install tor to your system (sudo apt-get install tor , sudo apt-get install privoxy)
+1: install tor and other requirements to your system (sudo apt-get install tor , sudo apt-get install privoxy, pip install PySocks)
 
 2: download fakevisitor.py
 
